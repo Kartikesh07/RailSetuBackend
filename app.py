@@ -96,4 +96,4 @@ def get_mock_data():
     return { "timestamp": datetime.now().isoformat(), "section": "Solapur-Wadi (Model Not Trained)", "metrics": { "active_trains": 0, "average_delay_minutes": 0, "average_speed_kmh": 0, "bottleneck_utilization": 0, "total_scheduled_trains": 0 }, "decisions": {}, "critical_count": 0, "trains": [], "stations": [] }
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=False) 
