@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway AI Decision Support System - Solapur-Wadi Section</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-train"></i>
+                    <span>Railway AI Control</span>
+                </div>
+                <div class="section-info">
+                    <h1>Solapur-Wadi Section</h1>
+                    <p>AI Decision Support System</p>
+                </div>
+                <div class="status-indicator">
+                    <div class="status-dot active"></div>
+                    <span>System Active</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Dashboard -->
+        <main class="dashboard">
+            <!-- Metrics Overview -->
+            <section class="metrics-section">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-train"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h3 id="active-trains">-</h3>
+                            <p>Active Trains</p>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon delay">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h3 id="avg-delay">-</h3>
+                            <p>Avg Delay (min)</p>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon speed">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h3 id="avg-speed">-</h3>
+                            <p>Avg Speed (km/h)</p>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon bottleneck">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h3 id="bottleneck-util">-</h3>
+                            <p>Bottleneck Usage</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Map Visualization -->
+            <section class="map-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-chart-line"></i> Time-Distance Graph</h2>
+                    <div class="map-controls">
+                        <select id="time-range">
+                            <option value="6">Next 6 Hours</option>
+                            <option value="12" selected>Next 12 Hours</option>
+                            <option value="24">Next 24 Hours</option>
+                        </select>
+                        <button class="btn-refresh" onclick="refreshData()">
+                            <i class="fas fa-sync-alt"></i> Refresh
+                        </button>
+                    </div>
+                </div>
+                <div class="graph-container">
+                    <canvas id="time-distance-graph"></canvas>
+                </div>
+                <div class="graph-legend">
+                    <div class="legend-item">
+                        <div class="legend-color express"></div>
+                        <span>Express/Superfast</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color passenger"></div>
+                        <span>Passenger</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color freight"></div>
+                        <span>Freight</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color delayed"></div>
+                        <span>Delayed</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AI Decisions Panel -->
+            <section class="decisions-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-robot"></i> AI Recommendations</h2>
+                    <div class="decision-stats">
+                        <span class="critical-count" id="critical-count">0 Critical</span>
+                    </div>
+                </div>
+                <div class="decisions-container" id="decisions-container">
+                    <!-- AI decisions will be populated here -->
+                </div>
+            </section>
+
+            <!-- Train Details Panel -->
+            <section class="trains-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-list"></i> Train Status</h2>
+                    <div class="filter-controls">
+                        <select id="status-filter">
+                            <option value="all">All Trains</option>
+                            <option value="running">Running</option>
+                            <option value="delayed">Delayed</option>
+                            <option value="stopped">Stopped</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="trains-container" id="trains-container">
+                    <!-- Train details will be populated here -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Loading Overlay -->
+        <div class="loading-overlay" id="loading-overlay">
+            <div class="loading-spinner">
+                <i class="fas fa-train"></i>
+                <p>Loading AI Analysis...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="../static/script.js"></script>
+</body>
+</html>
+

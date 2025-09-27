@@ -1,0 +1,1233 @@
+{
+  "timestamp": "2025-09-21 17:56:20",
+  "section": "Solapur-Wadi",
+  "metrics": {
+    "active_trains": 6,
+    "average_delay_minutes": 279.38,
+    "average_speed_kmh": 66.15,
+    "bottleneck_utilization": 0.33,
+    "total_scheduled_trains": 25
+  },
+  "decisions": {
+    "11014": {
+      "decision": "Reduce speed",
+      "confidence": 0.93,
+      "reasoning": "Reduce speed due to 3 trains ahead"
+    },
+    "F50001": {
+      "decision": "Proceed normally",
+      "confidence": 1.0,
+      "reasoning": "Train is operating normally with 1 min delay"
+    },
+    "11023": {
+      "decision": "Proceed normally",
+      "confidence": 1.0,
+      "reasoning": "Train is operating normally with -5 min delay"
+    },
+    "F50002": {
+      "decision": "Hold/Reroute",
+      "confidence": 1.0,
+      "reasoning": "Heavy delay (54 min) - consider rerouting"
+    },
+    "11024": {
+      "decision": "Proceed normally",
+      "confidence": 0.99,
+      "reasoning": "Train is operating normally with 17 min delay"
+    },
+    "11016": {
+      "decision": "Give priority",
+      "confidence": 0.8,
+      "reasoning": "High priority train (level 3) - give precedence"
+    },
+    "11012": {
+      "decision": "Hold/Reroute",
+      "confidence": 0.97,
+      "reasoning": "Heavy delay (32 min) - consider rerouting"
+    },
+    "11004": {
+      "decision": "Hold/Reroute",
+      "confidence": 0.98,
+      "reasoning": "Heavy delay (52 min) - consider rerouting"
+    },
+    "11003": {
+      "decision": "Proceed normally",
+      "confidence": 1.0,
+      "reasoning": "Train is operating normally with 0 min delay"
+    },
+    "F50010": {
+      "decision": "Reduce speed",
+      "confidence": 1.0,
+      "reasoning": "Reduce speed due to 8 trains ahead"
+    },
+    "F50022": {
+      "decision": "Reduce speed",
+      "confidence": 1.0,
+      "reasoning": "Reduce speed due to 8 trains ahead"
+    },
+    "F50021": {
+      "decision": "Reduce speed",
+      "confidence": 1.0,
+      "reasoning": "Reduce speed due to 8 trains ahead"
+    },
+    "11020": {
+      "decision": "Proceed normally",
+      "confidence": 1.0,
+      "reasoning": "Train is operating normally with 0 min delay"
+    },
+    "11018": {
+      "decision": "Proceed normally",
+      "confidence": 1.0,
+      "reasoning": "Train is operating normally with 0 min delay"
+    },
+    "F50005": {
+      "decision": "Proceed normally",
+      "confidence": 1.0,
+      "reasoning": "Train is operating normally with 0 min delay"
+    }
+  },
+  "critical_count": 8,
+  "trains": [
+    {
+      "train_number": "F50000",
+      "train_name": "Freight F50000",
+      "train_type": "freight",
+      "priority": 1,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T00:13:00",
+      "scheduled_arrival": "2025-09-21T07:48:18",
+      "current_km": 455.3,
+      "current_station": "WDI",
+      "speed": 0.0,
+      "status": "completed",
+      "delay_minutes": 608,
+      "stops": [
+        {
+          "station_code": "BIJAPUR",
+          "arrival_time": "2025-09-21 01:31:12",
+          "departure_time": "2025-09-21 01:39:12"
+        },
+        {
+          "station_code": "GADAG",
+          "arrival_time": "2025-09-21 03:01:54",
+          "departure_time": "2025-09-21 03:11:54"
+        },
+        {
+          "station_code": "MUNDARGI",
+          "arrival_time": "2025-09-21 03:18:24",
+          "departure_time": "2025-09-21 03:26:24"
+        },
+        {
+          "station_code": "RANEBENNUR",
+          "arrival_time": "2025-09-21 03:38:06",
+          "departure_time": "2025-09-21 03:43:06"
+        },
+        {
+          "station_code": "ALNAVAR",
+          "arrival_time": "2025-09-21 05:38:12",
+          "departure_time": "2025-09-21 05:40:12"
+        },
+        {
+          "station_code": "BGM",
+          "arrival_time": "2025-09-21 06:28:24",
+          "departure_time": "2025-09-21 06:35:24"
+        }
+      ]
+    },
+    {
+      "train_number": "F50007",
+      "train_name": "Freight F50007",
+      "train_type": "freight",
+      "priority": 1,
+      "origin": "WDI",
+      "destination": "SUR",
+      "scheduled_departure": "2025-09-21T00:42:00",
+      "scheduled_arrival": "2025-09-21T08:17:18",
+      "current_km": 455.3,
+      "current_station": "SUR",
+      "speed": 0.0,
+      "status": "completed",
+      "delay_minutes": 579,
+      "stops": [
+        {
+          "station_code": "BAGALKOT",
+          "arrival_time": "2025-09-21 06:11:36",
+          "departure_time": "2025-09-21 06:19:36"
+        },
+        {
+          "station_code": "GADAG",
+          "arrival_time": "2025-09-21 05:28:24",
+          "departure_time": "2025-09-21 05:35:24"
+        },
+        {
+          "station_code": "RANEBENNUR",
+          "arrival_time": "2025-09-21 04:52:12",
+          "departure_time": "2025-09-21 04:58:12"
+        },
+        {
+          "station_code": "BYADGI",
+          "arrival_time": "2025-09-21 04:12:06",
+          "departure_time": "2025-09-21 04:21:06"
+        },
+        {
+          "station_code": "ALNAVAR",
+          "arrival_time": "2025-09-21 02:52:06",
+          "departure_time": "2025-09-21 02:59:06"
+        },
+        {
+          "station_code": "LONDA",
+          "arrival_time": "2025-09-21 02:31:36",
+          "departure_time": "2025-09-21 02:38:36"
+        }
+      ]
+    },
+    {
+      "train_number": "11009",
+      "train_name": "Passenger 11009",
+      "train_type": "passenger",
+      "priority": 1,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T02:08:00",
+      "scheduled_arrival": "2025-09-21T13:30:57",
+      "current_km": 455.3,
+      "current_station": "WDI",
+      "speed": 0.0,
+      "status": "completed",
+      "delay_minutes": 265,
+      "stops": [
+        {
+          "station_code": "INDI",
+          "arrival_time": "2025-09-21 03:16:42",
+          "departure_time": "2025-09-21 03:26:42"
+        },
+        {
+          "station_code": "GADAG",
+          "arrival_time": "2025-09-21 06:21:21",
+          "departure_time": "2025-09-21 06:23:21"
+        },
+        {
+          "station_code": "MUNDARGI",
+          "arrival_time": "2025-09-21 06:46:06",
+          "departure_time": "2025-09-21 06:50:06"
+        },
+        {
+          "station_code": "RANEBENNUR",
+          "arrival_time": "2025-09-21 07:15:39",
+          "departure_time": "2025-09-21 07:24:39"
+        },
+        {
+          "station_code": "SHIGGAON",
+          "arrival_time": "2025-09-21 08:46:33",
+          "departure_time": "2025-09-21 08:55:33"
+        },
+        {
+          "station_code": "ALNAVAR",
+          "arrival_time": "2025-09-21 10:15:48",
+          "departure_time": "2025-09-21 10:21:48"
+        },
+        {
+          "station_code": "LONDA",
+          "arrival_time": "2025-09-21 10:46:33",
+          "departure_time": "2025-09-21 10:48:33"
+        },
+        {
+          "station_code": "RAYBAG",
+          "arrival_time": "2025-09-21 13:01:33",
+          "departure_time": "2025-09-21 13:07:33"
+        }
+      ]
+    },
+    {
+      "train_number": "11017",
+      "train_name": "Superfast 11017",
+      "train_type": "superfast",
+      "priority": 3,
+      "origin": "WDI",
+      "destination": "SUR",
+      "scheduled_departure": "2025-09-21T02:36:00",
+      "scheduled_arrival": "2025-09-21T07:09:10.800000",
+      "current_km": 455.3,
+      "current_station": "SUR",
+      "speed": 0.0,
+      "status": "completed",
+      "delay_minutes": 647,
+      "stops": [
+        {
+          "station_code": "INDI",
+          "arrival_time": "2025-09-21 06:41:42",
+          "departure_time": "2025-09-21 06:48:42"
+        },
+        {
+          "station_code": "GADAG",
+          "arrival_time": "2025-09-21 05:27:50.400000",
+          "departure_time": "2025-09-21 05:32:50.400000"
+        }
+      ]
+    },
+    {
+      "train_number": "F50013",
+      "train_name": "Freight F50013",
+      "train_type": "freight",
+      "priority": 1,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T02:54:00",
+      "scheduled_arrival": "2025-09-21T10:29:18",
+      "current_km": 455.3,
+      "current_station": "WDI",
+      "speed": 0.0,
+      "status": "completed",
+      "delay_minutes": 447,
+      "stops": [
+        {
+          "station_code": "INDI",
+          "arrival_time": "2025-09-21 03:39:48",
+          "departure_time": "2025-09-21 03:43:48"
+        },
+        {
+          "station_code": "BIJAPUR",
+          "arrival_time": "2025-09-21 04:12:12",
+          "departure_time": "2025-09-21 04:17:12"
+        },
+        {
+          "station_code": "ALMATTI",
+          "arrival_time": "2025-09-21 04:29:30",
+          "departure_time": "2025-09-21 04:35:30"
+        },
+        {
+          "station_code": "BAGALKOT",
+          "arrival_time": "2025-09-21 04:59:42",
+          "departure_time": "2025-09-21 05:02:42"
+        },
+        {
+          "station_code": "MUNDARGI",
+          "arrival_time": "2025-09-21 05:59:24",
+          "departure_time": "2025-09-21 06:02:24"
+        },
+        {
+          "station_code": "UNKAL",
+          "arrival_time": "2025-09-21 07:49:06",
+          "departure_time": "2025-09-21 07:59:06"
+        }
+      ]
+    },
+    {
+      "train_number": "11019",
+      "train_name": "Superfast 11019",
+      "train_type": "superfast",
+      "priority": 3,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T03:15:00",
+      "scheduled_arrival": "2025-09-21T07:48:10.800000",
+      "current_km": 455.3,
+      "current_station": "WDI",
+      "speed": 0.0,
+      "status": "completed",
+      "delay_minutes": 608,
+      "stops": [
+        {
+          "station_code": "HUBLI",
+          "arrival_time": "2025-09-21 06:06:14.400000",
+          "departure_time": "2025-09-21 06:10:14.400000"
+        },
+        {
+          "station_code": "GPB",
+          "arrival_time": "2025-09-21 07:12:28.800000",
+          "departure_time": "2025-09-21 07:16:28.800000"
+        }
+      ]
+    },
+    {
+      "train_number": "11006",
+      "train_name": "Express 11006",
+      "train_type": "express",
+      "priority": 2,
+      "origin": "WDI",
+      "destination": "SUR",
+      "scheduled_departure": "2025-09-21T04:16:00",
+      "scheduled_arrival": "2025-09-21T09:57:28.500000",
+      "current_km": 455.3,
+      "current_station": "SUR",
+      "speed": 0.0,
+      "status": "completed",
+      "delay_minutes": 478,
+      "stops": [
+        {
+          "station_code": "INDI",
+          "arrival_time": "2025-09-21 09:23:07.500000",
+          "departure_time": "2025-09-21 09:28:07.500000"
+        },
+        {
+          "station_code": "BIJAPUR",
+          "arrival_time": "2025-09-21 08:58:49.500000",
+          "departure_time": "2025-09-21 09:08:49.500000"
+        },
+        {
+          "station_code": "HUBLI",
+          "arrival_time": "2025-09-21 06:23:25.500000",
+          "departure_time": "2025-09-21 06:29:25.500000"
+        },
+        {
+          "station_code": "RAYBAG",
+          "arrival_time": "2025-09-21 04:30:42",
+          "departure_time": "2025-09-21 04:37:42"
+        }
+      ]
+    },
+    {
+      "train_number": "11015",
+      "train_name": "Superfast 11015",
+      "train_type": "superfast",
+      "priority": 3,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T05:40:00",
+      "scheduled_arrival": "2025-09-21T10:13:10.800000",
+      "current_km": 455.3,
+      "current_station": "WDI",
+      "speed": 0.0,
+      "status": "completed",
+      "delay_minutes": 463,
+      "stops": [
+        {
+          "station_code": "INDI",
+          "arrival_time": "2025-09-21 06:07:28.800000",
+          "departure_time": "2025-09-21 06:11:28.800000"
+        },
+        {
+          "station_code": "SHIGGAON",
+          "arrival_time": "2025-09-21 08:19:25.200000",
+          "departure_time": "2025-09-21 08:26:25.200000"
+        }
+      ]
+    },
+    {
+      "train_number": "11014",
+      "train_name": "Passenger 11014",
+      "train_type": "passenger",
+      "priority": 1,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T09:08:00",
+      "scheduled_arrival": "2025-09-21T20:30:57",
+      "current_km": 397.7378773666666,
+      "current_station": "GPB",
+      "speed": 49.43602285070242,
+      "status": "running",
+      "delay_minutes": 30,
+      "stops": [
+        {
+          "station_code": "GADAG",
+          "arrival_time": "2025-09-21 13:21:21",
+          "departure_time": "2025-09-21 13:29:21"
+        },
+        {
+          "station_code": "MUNDARGI",
+          "arrival_time": "2025-09-21 13:46:06",
+          "departure_time": "2025-09-21 13:48:06"
+        },
+        {
+          "station_code": "RANEBENNUR",
+          "arrival_time": "2025-09-21 14:15:39",
+          "departure_time": "2025-09-21 14:25:39"
+        },
+        {
+          "station_code": "DHARWAD",
+          "arrival_time": "2025-09-21 16:46:42",
+          "departure_time": "2025-09-21 16:52:42"
+        },
+        {
+          "station_code": "BGM",
+          "arrival_time": "2025-09-21 18:31:06",
+          "departure_time": "2025-09-21 18:38:06"
+        },
+        {
+          "station_code": "GPB",
+          "arrival_time": "2025-09-21 19:01:42",
+          "departure_time": "2025-09-21 19:10:42"
+        },
+        {
+          "station_code": "KUDACHI",
+          "arrival_time": "2025-09-21 19:30:48",
+          "departure_time": "2025-09-21 19:32:48"
+        },
+        {
+          "station_code": "RAYBAG",
+          "arrival_time": "2025-09-21 20:01:33",
+          "departure_time": "2025-09-21 20:11:33"
+        }
+      ]
+    },
+    {
+      "train_number": "F50008",
+      "train_name": "Freight F50008",
+      "train_type": "freight",
+      "priority": 1,
+      "origin": "WDI",
+      "destination": "SUR",
+      "scheduled_departure": "2025-09-21T09:11:00",
+      "scheduled_arrival": "2025-09-21T16:46:18",
+      "current_km": 455.3,
+      "current_station": "SUR",
+      "speed": 0.0,
+      "status": "completed",
+      "delay_minutes": 70,
+      "stops": [
+        {
+          "station_code": "BAGALKOT",
+          "arrival_time": "2025-09-21 14:40:36",
+          "departure_time": "2025-09-21 14:44:36"
+        },
+        {
+          "station_code": "MUNDARGI",
+          "arrival_time": "2025-09-21 13:40:54",
+          "departure_time": "2025-09-21 13:47:54"
+        },
+        {
+          "station_code": "RANEBENNUR",
+          "arrival_time": "2025-09-21 13:21:12",
+          "departure_time": "2025-09-21 13:25:12"
+        },
+        {
+          "station_code": "HAVERI",
+          "arrival_time": "2025-09-21 13:00:30",
+          "departure_time": "2025-09-21 13:10:30"
+        },
+        {
+          "station_code": "BYADGI",
+          "arrival_time": "2025-09-21 12:41:06",
+          "departure_time": "2025-09-21 12:44:06"
+        },
+        {
+          "station_code": "UNKAL",
+          "arrival_time": "2025-09-21 11:51:12",
+          "departure_time": "2025-09-21 11:58:12"
+        }
+      ]
+    },
+    {
+      "train_number": "F50001",
+      "train_name": "Freight F50001",
+      "train_type": "freight",
+      "priority": 1,
+      "origin": "WDI",
+      "destination": "SUR",
+      "scheduled_departure": "2025-09-21T10:43:00",
+      "scheduled_arrival": "2025-09-21T18:18:18",
+      "current_km": 20.470517283333322,
+      "current_station": "HOTGI",
+      "speed": 46.472707863444455,
+      "status": "running",
+      "delay_minutes": 1,
+      "stops": [
+        {
+          "station_code": "HOTGI",
+          "arrival_time": "2025-09-21 17:53:00",
+          "departure_time": "2025-09-21 17:55:00"
+        },
+        {
+          "station_code": "INDI",
+          "arrival_time": "2025-09-21 17:32:30",
+          "departure_time": "2025-09-21 17:38:30"
+        },
+        {
+          "station_code": "RANEBENNUR",
+          "arrival_time": "2025-09-21 14:53:12",
+          "departure_time": "2025-09-21 15:01:12"
+        },
+        {
+          "station_code": "BYADGI",
+          "arrival_time": "2025-09-21 14:13:06",
+          "departure_time": "2025-09-21 14:17:06"
+        },
+        {
+          "station_code": "ALNAVAR",
+          "arrival_time": "2025-09-21 12:53:06",
+          "departure_time": "2025-09-21 13:02:06"
+        },
+        {
+          "station_code": "BGM",
+          "arrival_time": "2025-09-21 12:02:54",
+          "departure_time": "2025-09-21 12:09:54"
+        }
+      ]
+    },
+    {
+      "train_number": "11011",
+      "train_name": "Superfast 11011",
+      "train_type": "superfast",
+      "priority": 3,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T11:24:00",
+      "scheduled_arrival": "2025-09-21T15:57:10.800000",
+      "current_km": 455.3,
+      "current_station": "WDI",
+      "speed": 0.0,
+      "status": "completed",
+      "delay_minutes": 119,
+      "stops": [
+        {
+          "station_code": "ALMATTI",
+          "arrival_time": "2025-09-21 12:21:18",
+          "departure_time": "2025-09-21 12:28:18"
+        },
+        {
+          "station_code": "RANEBENNUR",
+          "arrival_time": "2025-09-21 13:27:03.600000",
+          "departure_time": "2025-09-21 13:34:03.600000"
+        }
+      ]
+    },
+    {
+      "train_number": "11023",
+      "train_name": "Express 11023",
+      "train_type": "express",
+      "priority": 2,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T12:26:00",
+      "scheduled_arrival": "2025-09-21T18:07:28.500000",
+      "current_km": 432.82742140000005,
+      "current_station": "RAYBAG",
+      "speed": 0.0,
+      "status": "stopped",
+      "delay_minutes": -5,
+      "stops": [
+        {
+          "station_code": "BAGALKOT",
+          "arrival_time": "2025-09-21 14:00:16.500000",
+          "departure_time": "2025-09-21 14:05:16.500000"
+        },
+        {
+          "station_code": "MUNDARGI",
+          "arrival_time": "2025-09-21 14:45:03",
+          "departure_time": "2025-09-21 14:55:03"
+        },
+        {
+          "station_code": "LONDA",
+          "arrival_time": "2025-09-21 16:45:16.500000",
+          "departure_time": "2025-09-21 16:49:16.500000"
+        },
+        {
+          "station_code": "BGM",
+          "arrival_time": "2025-09-21 17:07:33",
+          "departure_time": "2025-09-21 17:09:33"
+        }
+      ]
+    },
+    {
+      "train_number": "F50002",
+      "train_name": "Freight F50002",
+      "train_type": "freight",
+      "priority": 1,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T12:36:00",
+      "scheduled_arrival": "2025-09-21T20:11:18",
+      "current_km": 402.26581605,
+      "current_station": null,
+      "speed": 62.376131878322035,
+      "status": "delayed",
+      "delay_minutes": 54,
+      "stops": [
+        {
+          "station_code": "HOTGI",
+          "arrival_time": "2025-09-21 13:01:18",
+          "departure_time": "2025-09-21 13:03:18"
+        },
+        {
+          "station_code": "INDI",
+          "arrival_time": "2025-09-21 13:21:48",
+          "departure_time": "2025-09-21 13:31:48"
+        },
+        {
+          "station_code": "BADAMI",
+          "arrival_time": "2025-09-21 14:58:18",
+          "departure_time": "2025-09-21 15:01:18"
+        },
+        {
+          "station_code": "HAVERI",
+          "arrival_time": "2025-09-21 16:21:48",
+          "departure_time": "2025-09-21 16:24:48"
+        },
+        {
+          "station_code": "ALNAVAR",
+          "arrival_time": "2025-09-21 18:01:12",
+          "departure_time": "2025-09-21 18:03:12"
+        },
+        {
+          "station_code": "LONDA",
+          "arrival_time": "2025-09-21 18:21:42",
+          "departure_time": "2025-09-21 18:30:42"
+        }
+      ]
+    },
+    {
+      "train_number": "11024",
+      "train_name": "Express 11024",
+      "train_type": "express",
+      "priority": 2,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T13:07:00",
+      "scheduled_arrival": "2025-09-21T18:48:28.500000",
+      "current_km": 411.5494214,
+      "current_station": "KUDACHI",
+      "speed": 71.13795475673132,
+      "status": "running",
+      "delay_minutes": 17,
+      "stops": [
+        {
+          "station_code": "BAGALKOT",
+          "arrival_time": "2025-09-21 14:41:16.500000",
+          "departure_time": "2025-09-21 14:51:16.500000"
+        },
+        {
+          "station_code": "MUNDARGI",
+          "arrival_time": "2025-09-21 15:26:03",
+          "departure_time": "2025-09-21 15:32:03"
+        },
+        {
+          "station_code": "GPB",
+          "arrival_time": "2025-09-21 18:03:51",
+          "departure_time": "2025-09-21 18:07:51"
+        },
+        {
+          "station_code": "KUDACHI",
+          "arrival_time": "2025-09-21 18:18:24",
+          "departure_time": "2025-09-21 18:24:24"
+        }
+      ]
+    },
+    {
+      "train_number": "11016",
+      "train_name": "Superfast 11016",
+      "train_type": "superfast",
+      "priority": 3,
+      "origin": "WDI",
+      "destination": "SUR",
+      "scheduled_departure": "2025-09-21T14:48:00",
+      "scheduled_arrival": "2025-09-21T19:21:10.800000",
+      "current_km": 156.62363991666672,
+      "current_station": null,
+      "speed": 0.0,
+      "status": "stopped",
+      "delay_minutes": -10,
+      "stops": [
+        {
+          "station_code": "HAVERI",
+          "arrival_time": "2025-09-21 17:05:42",
+          "departure_time": "2025-09-21 17:11:42"
+        },
+        {
+          "station_code": "HUBLI",
+          "arrival_time": "2025-09-21 16:29:56.400000",
+          "departure_time": "2025-09-21 16:31:56.400000"
+        }
+      ]
+    },
+    {
+      "train_number": "11012",
+      "train_name": "Express 11012",
+      "train_type": "express",
+      "priority": 2,
+      "origin": "WDI",
+      "destination": "SUR",
+      "scheduled_departure": "2025-09-21T15:58:00",
+      "scheduled_arrival": "2025-09-21T21:39:28.500000",
+      "current_km": 248.9855786,
+      "current_station": "BYADGI",
+      "speed": 79.51783632307993,
+      "status": "delayed",
+      "delay_minutes": 32,
+      "stops": [
+        {
+          "station_code": "HOTGI",
+          "arrival_time": "2025-09-21 21:20:30",
+          "departure_time": "2025-09-21 21:25:30"
+        },
+        {
+          "station_code": "BAGALKOT",
+          "arrival_time": "2025-09-21 20:05:12",
+          "departure_time": "2025-09-21 20:09:12"
+        },
+        {
+          "station_code": "BYADGI",
+          "arrival_time": "2025-09-21 18:35:34.500000",
+          "departure_time": "2025-09-21 18:38:34.500000"
+        },
+        {
+          "station_code": "KUDACHI",
+          "arrival_time": "2025-09-21 16:28:04.500000",
+          "departure_time": "2025-09-21 16:32:04.500000"
+        }
+      ]
+    },
+    {
+      "train_number": "11004",
+      "train_name": "Superfast 11004",
+      "train_type": "superfast",
+      "priority": 3,
+      "origin": "WDI",
+      "destination": "SUR",
+      "scheduled_departure": "2025-09-21T16:13:00",
+      "scheduled_arrival": "2025-09-21T20:46:10.800000",
+      "current_km": 204.19497325,
+      "current_station": "RANEBENNUR",
+      "speed": 87.94102099590953,
+      "status": "delayed",
+      "delay_minutes": 52,
+      "stops": [
+        {
+          "station_code": "HOTGI",
+          "arrival_time": "2025-09-21 20:31:00",
+          "departure_time": "2025-09-21 20:33:00"
+        },
+        {
+          "station_code": "KUDACHI",
+          "arrival_time": "2025-09-21 16:37:03.600000",
+          "departure_time": "2025-09-21 16:43:03.600000"
+        }
+      ]
+    },
+    {
+      "train_number": "11003",
+      "train_name": "Express 11003",
+      "train_type": "express",
+      "priority": 2,
+      "origin": "WDI",
+      "destination": "SUR",
+      "scheduled_departure": "2025-09-21T18:33:00",
+      "scheduled_arrival": "2025-09-22T00:14:28.500000",
+      "current_km": 0.0,
+      "current_station": "WDI",
+      "speed": 0.0,
+      "status": "scheduled",
+      "delay_minutes": 0,
+      "stops": [
+        {
+          "station_code": "RANEBENNUR",
+          "arrival_time": "2025-09-21 21:40:39",
+          "departure_time": "2025-09-21 21:44:39"
+        },
+        {
+          "station_code": "HUBLI",
+          "arrival_time": "2025-09-21 20:40:25.500000",
+          "departure_time": "2025-09-21 20:46:25.500000"
+        },
+        {
+          "station_code": "UNKAL",
+          "arrival_time": "2025-09-21 20:33:09",
+          "departure_time": "2025-09-21 20:43:09"
+        },
+        {
+          "station_code": "BGM",
+          "arrival_time": "2025-09-21 19:32:55.500000",
+          "departure_time": "2025-09-21 19:40:55.500000"
+        }
+      ]
+    },
+    {
+      "train_number": "F50010",
+      "train_name": "Freight F50010",
+      "train_type": "freight",
+      "priority": 1,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T19:13:00",
+      "scheduled_arrival": "2025-09-22T02:48:18",
+      "current_km": 0.0,
+      "current_station": "SUR",
+      "speed": 0.0,
+      "status": "scheduled",
+      "delay_minutes": 0,
+      "stops": [
+        {
+          "station_code": "ALMATTI",
+          "arrival_time": "2025-09-21 20:48:30",
+          "departure_time": "2025-09-21 20:51:30"
+        },
+        {
+          "station_code": "BAGALKOT",
+          "arrival_time": "2025-09-21 21:18:42",
+          "departure_time": "2025-09-21 21:22:42"
+        },
+        {
+          "station_code": "BADAMI",
+          "arrival_time": "2025-09-21 21:35:18",
+          "departure_time": "2025-09-21 21:39:18"
+        },
+        {
+          "station_code": "GADAG",
+          "arrival_time": "2025-09-21 22:01:54",
+          "departure_time": "2025-09-21 22:09:54"
+        },
+        {
+          "station_code": "SHIGGAON",
+          "arrival_time": "2025-09-21 23:38:42",
+          "departure_time": "2025-09-21 23:44:42"
+        },
+        {
+          "station_code": "DHARWAD",
+          "arrival_time": "2025-09-22 00:18:48",
+          "departure_time": "2025-09-22 00:28:48"
+        }
+      ]
+    },
+    {
+      "train_number": "F50022",
+      "train_name": "Freight F50022",
+      "train_type": "freight",
+      "priority": 1,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T20:06:00",
+      "scheduled_arrival": "2025-09-22T03:41:18",
+      "current_km": 0.0,
+      "current_station": "SUR",
+      "speed": 0.0,
+      "status": "scheduled",
+      "delay_minutes": 0,
+      "stops": [
+        {
+          "station_code": "BIJAPUR",
+          "arrival_time": "2025-09-21 21:24:12",
+          "departure_time": "2025-09-21 21:34:12"
+        },
+        {
+          "station_code": "GADAG",
+          "arrival_time": "2025-09-21 22:54:54",
+          "departure_time": "2025-09-21 23:04:54"
+        },
+        {
+          "station_code": "BYADGI",
+          "arrival_time": "2025-09-22 00:11:12",
+          "departure_time": "2025-09-22 00:16:12"
+        },
+        {
+          "station_code": "LONDA",
+          "arrival_time": "2025-09-22 01:51:42",
+          "departure_time": "2025-09-22 01:57:42"
+        },
+        {
+          "station_code": "BGM",
+          "arrival_time": "2025-09-22 02:21:24",
+          "departure_time": "2025-09-22 02:24:24"
+        },
+        {
+          "station_code": "GPB",
+          "arrival_time": "2025-09-22 02:41:48",
+          "departure_time": "2025-09-22 02:48:48"
+        }
+      ]
+    },
+    {
+      "train_number": "F50021",
+      "train_name": "Freight F50021",
+      "train_type": "freight",
+      "priority": 1,
+      "origin": "SUR",
+      "destination": "WDI",
+      "scheduled_departure": "2025-09-21T20:10:00",
+      "scheduled_arrival": "2025-09-22T03:45:18",
+      "current_km": 0.0,
+      "current_station": "SUR",
+      "speed": 0.0,
+      "status": "scheduled",
+      "delay_minutes": 0,
+      "stops": [
+        {
+          "station_code": "INDI",
+          "arrival_time": "2025-09-21 20:55:48",
+          "departure_time": "2025-09-21 21:01:48"
+        },
+        {
+          "station_code": "ALMATTI",
+          "arrival_time": "2025-09-21 21:45:30",
+          "departure_time": "2025-09-21 21:49:30"
+        },
+        {
+          "station_code": "BAGALKOT",
+          "arrival_time": "2025-09-21 22:15:42",
+          "departure_time": "2025-09-21 22:22:42"
+        },
+        {
+          "station_code": "GADAG",
+          "arrival_time": "2025-09-21 22:58:54",
+          "departure_time": "2025-09-21 23:08:54"
+        },
+        {
+          "station_code": "SHIGGAON",
+          "arrival_time": "2025-09-22 00:35:42",
+          "departure_time": "2025-09-22 00:43:42"
+        },
+        {
+          "station_code": "BGM",
+          "arrival_time": "2025-09-22 02:25:24",
+          "departure_time": "2025-09-22 02:30:24"
+        }
+      ]
+    },
+    {
+      "train_number": "11020",
+      "train_name": "Passenger 11020",
+      "train_type": "passenger",
+      "priority": 1,
+      "origin": "WDI",
+      "destination": "SUR",
+      "scheduled_departure": "2025-09-21T20:56:00",
+      "scheduled_arrival": "2025-09-22T08:18:57",
+      "current_km": 0.0,
+      "current_station": "WDI",
+      "speed": 0.0,
+      "status": "scheduled",
+      "delay_minutes": 0,
+      "stops": [
+        {
+          "station_code": "ALMATTI",
+          "arrival_time": "2025-09-22 05:55:42",
+          "departure_time": "2025-09-22 06:04:42"
+        },
+        {
+          "station_code": "GADAG",
+          "arrival_time": "2025-09-22 04:05:36",
+          "departure_time": "2025-09-22 04:11:36"
+        },
+        {
+          "station_code": "MUNDARGI",
+          "arrival_time": "2025-09-22 03:40:51",
+          "departure_time": "2025-09-22 03:50:51"
+        },
+        {
+          "station_code": "HAVERI",
+          "arrival_time": "2025-09-22 02:40:15",
+          "departure_time": "2025-09-22 02:49:15"
+        },
+        {
+          "station_code": "SHIGGAON",
+          "arrival_time": "2025-09-22 01:40:24",
+          "departure_time": "2025-09-22 01:47:24"
+        },
+        {
+          "station_code": "HUBLI",
+          "arrival_time": "2025-09-22 01:10:51",
+          "departure_time": "2025-09-22 01:14:51"
+        },
+        {
+          "station_code": "UNKAL",
+          "arrival_time": "2025-09-22 00:56:18",
+          "departure_time": "2025-09-22 01:05:18"
+        },
+        {
+          "station_code": "GPB",
+          "arrival_time": "2025-09-21 22:25:15",
+          "departure_time": "2025-09-21 22:32:15"
+        }
+      ]
+    },
+    {
+      "train_number": "11018",
+      "train_name": "Express 11018",
+      "train_type": "express",
+      "priority": 2,
+      "origin": "WDI",
+      "destination": "SUR",
+      "scheduled_departure": "2025-09-21T22:36:00",
+      "scheduled_arrival": "2025-09-22T04:17:28.500000",
+      "current_km": 0.0,
+      "current_station": "WDI",
+      "speed": 0.0,
+      "status": "scheduled",
+      "delay_minutes": 0,
+      "stops": [
+        {
+          "station_code": "BIJAPUR",
+          "arrival_time": "2025-09-22 03:18:49.500000",
+          "departure_time": "2025-09-22 03:20:49.500000"
+        },
+        {
+          "station_code": "GADAG",
+          "arrival_time": "2025-09-22 02:10:48",
+          "departure_time": "2025-09-22 02:15:48"
+        },
+        {
+          "station_code": "HAVERI",
+          "arrival_time": "2025-09-22 01:28:07.500000",
+          "departure_time": "2025-09-22 01:30:07.500000"
+        },
+        {
+          "station_code": "BGM",
+          "arrival_time": "2025-09-21 23:35:55.500000",
+          "departure_time": "2025-09-21 23:38:55.500000"
+        }
+      ]
+    },
+    {
+      "train_number": "F50005",
+      "train_name": "Freight F50005",
+      "train_type": "freight",
+      "priority": 1,
+      "origin": "WDI",
+      "destination": "SUR",
+      "scheduled_departure": "2025-09-21T23:13:00",
+      "scheduled_arrival": "2025-09-22T06:48:18",
+      "current_km": 0.0,
+      "current_station": "WDI",
+      "speed": 0.0,
+      "status": "scheduled",
+      "delay_minutes": 0,
+      "stops": [
+        {
+          "station_code": "ALMATTI",
+          "arrival_time": "2025-09-22 05:12:48",
+          "departure_time": "2025-09-22 05:14:48"
+        },
+        {
+          "station_code": "GADAG",
+          "arrival_time": "2025-09-22 03:59:24",
+          "departure_time": "2025-09-22 04:03:24"
+        },
+        {
+          "station_code": "HAVERI",
+          "arrival_time": "2025-09-22 03:02:30",
+          "departure_time": "2025-09-22 03:08:30"
+        },
+        {
+          "station_code": "LONDA",
+          "arrival_time": "2025-09-22 01:02:36",
+          "departure_time": "2025-09-22 01:12:36"
+        },
+        {
+          "station_code": "BGM",
+          "arrival_time": "2025-09-22 00:32:54",
+          "departure_time": "2025-09-22 00:38:54"
+        },
+        {
+          "station_code": "GPB",
+          "arrival_time": "2025-09-22 00:12:30",
+          "departure_time": "2025-09-22 00:19:30"
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "code": "SUR",
+      "name": "Solapur",
+      "km": 0.0
+    },
+    {
+      "code": "HOTGI",
+      "name": "Hotgi",
+      "km": 25.3
+    },
+    {
+      "code": "INDI",
+      "name": "Indi",
+      "km": 45.8
+    },
+    {
+      "code": "BIJAPUR",
+      "name": "Bijapur",
+      "km": 78.2
+    },
+    {
+      "code": "ALMATTI",
+      "name": "Almatti",
+      "km": 95.5
+    },
+    {
+      "code": "BAGALKOT",
+      "name": "Bagalkot",
+      "km": 125.7
+    },
+    {
+      "code": "BADAMI",
+      "name": "Badami",
+      "km": 142.3
+    },
+    {
+      "code": "GADAG",
+      "name": "Gadag",
+      "km": 168.9
+    },
+    {
+      "code": "MUNDARGI",
+      "name": "Mundargi",
+      "km": 185.4
+    },
+    {
+      "code": "RANEBENNUR",
+      "name": "Ranebennur",
+      "km": 205.1
+    },
+    {
+      "code": "HAVERI",
+      "name": "Haveri",
+      "km": 225.8
+    },
+    {
+      "code": "BYADGI",
+      "name": "Byadgi",
+      "km": 245.2
+    },
+    {
+      "code": "SHIGGAON",
+      "name": "Shiggaon",
+      "km": 265.7
+    },
+    {
+      "code": "HUBLI",
+      "name": "Hubli",
+      "km": 285.4
+    },
+    {
+      "code": "UNKAL",
+      "name": "Unkal",
+      "km": 295.1
+    },
+    {
+      "code": "DHARWAD",
+      "name": "Dharwad",
+      "km": 305.8
+    },
+    {
+      "code": "ALNAVAR",
+      "name": "Alnavar",
+      "km": 325.2
+    },
+    {
+      "code": "LONDA",
+      "name": "Londa",
+      "km": 345.7
+    },
+    {
+      "code": "BGM",
+      "name": "Belagavi",
+      "km": 375.4
+    },
+    {
+      "code": "GPB",
+      "name": "Ghataprabha",
+      "km": 395.8
+    },
+    {
+      "code": "KUDACHI",
+      "name": "Kudachi",
+      "km": 415.2
+    },
+    {
+      "code": "RAYBAG",
+      "name": "Raybag",
+      "km": 435.7
+    },
+    {
+      "code": "WDI",
+      "name": "Wadi",
+      "km": 455.3
+    }
+  ]
+}
